@@ -1,0 +1,6 @@
+@TrendyWay.Catalog_HostAddress = http://localhost:5241
+
+GET {{TrendyWay.Catalog_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

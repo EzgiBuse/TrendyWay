@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34622.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{6FED3B18-3184-4641-83D3-D46085AE6F3C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Catalog", "Catalog", "{20A073B0-0DC2-4E3F-9E46-F9AECE088850}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrendyWay.Catalog", "Services\Catalog\TrendyWay.Catalog\TrendyWay.Catalog.csproj", "{1B152158-73CA-4D31-8184-8A929A292E28}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1B152158-73CA-4D31-8184-8A929A292E28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B152158-73CA-4D31-8184-8A929A292E28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B152158-73CA-4D31-8184-8A929A292E28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B152158-73CA-4D31-8184-8A929A292E28}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{20A073B0-0DC2-4E3F-9E46-F9AECE088850} = {6FED3B18-3184-4641-83D3-D46085AE6F3C}
+		{1B152158-73CA-4D31-8184-8A929A292E28} = {20A073B0-0DC2-4E3F-9E46-F9AECE088850}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F3609621-3FD8-4E32-ACE8-580FCA24F01F}
+	EndGlobalSection
+EndGlobal
