@@ -33,6 +33,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IdentityServer", "IdentityS
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TrendyWay.IdentityServer", "IdentityServer\TrendyWay.IdentityServer\TrendyWay.IdentityServer.csproj", "{0D322BE9-4220-4494-B025-270D23D17AB0}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Requirements", "Requirements", "{8A600AB5-D9CB-4962-943B-641B6235D753}"
+	ProjectSection(SolutionItems) = preProject
+		IdentityServerVersionErrorSolution.txt = IdentityServerVersionErrorSolution.txt
+		PortainerCmd.txt = PortainerCmd.txt
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
