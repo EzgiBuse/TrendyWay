@@ -1,0 +1,6 @@
+@TrendWay.Discount_HostAddress = http://localhost:5186
+
+GET {{TrendWay.Discount_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

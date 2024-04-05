@@ -1,0 +1,6 @@
+@TrendyWay.Order.WebaPI_HostAddress = http://localhost:5174
+
+GET {{TrendyWay.Order.WebaPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
