@@ -2,9 +2,12 @@ using TrendyWay.Order.Application.Features.CQRS.Handlers.AddressHandlers;
 using TrendyWay.Order.Application.Features.CQRS.Handlers.OrderDetailHandlers;
 using TrendyWay.Order.Application.Interfaces;
 using TrendyWay.Order.Application.Services;
+using TrendyWay.Order.Persistence.Context;
 using TrendyWay.Order.Persistence.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddDbContext<OrderContext>();
 
 builder.Services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
 builder.Services.AddApplicationService(builder.Configuration);

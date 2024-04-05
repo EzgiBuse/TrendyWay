@@ -7,11 +7,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{6F
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Catalog", "Catalog", "{20A073B0-0DC2-4E3F-9E46-F9AECE088850}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrendyWay.Catalog", "Services\Catalog\TrendyWay.Catalog\TrendyWay.Catalog.csproj", "{1B152158-73CA-4D31-8184-8A929A292E28}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TrendyWay.Catalog", "Services\Catalog\TrendyWay.Catalog\TrendyWay.Catalog.csproj", "{1B152158-73CA-4D31-8184-8A929A292E28}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Discount", "Discount", "{07090AF4-4939-4354-AFBD-7FD523E47581}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrendWay.Discount", "Services\Discount\TrendWay.Discount\TrendWay.Discount.csproj", "{55BF5DD4-1C95-443E-8C53-AF1F43481005}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TrendWay.Discount", "Services\Discount\TrendWay.Discount\TrendWay.Discount.csproj", "{55BF5DD4-1C95-443E-8C53-AF1F43481005}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Order", "Order", "{1EFA1A58-5766-4D13-BFB0-21F38B6331DC}"
 EndProject
@@ -19,15 +19,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{2C013A6E-0
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{F9350DD5-04E2-460F-B8C5-39B8E12B5A01}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrendyWay.Order.Domain", "Services\Order\Core\TrendyWay.Order.Domain\TrendyWay.Order.Domain.csproj", "{8FF344B2-83A7-4DBE-8710-776E37B6D946}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TrendyWay.Order.Domain", "Services\Order\Core\TrendyWay.Order.Domain\TrendyWay.Order.Domain.csproj", "{8FF344B2-83A7-4DBE-8710-776E37B6D946}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrendyWay.Order.Application", "Services\Order\Core\TrendyWay.Order.Application\TrendyWay.Order.Application.csproj", "{04645E82-ECD2-4F08-9A78-5235D4CEDC0E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TrendyWay.Order.Application", "Services\Order\Core\TrendyWay.Order.Application\TrendyWay.Order.Application.csproj", "{04645E82-ECD2-4F08-9A78-5235D4CEDC0E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{94739E77-DBBA-4DC7-AB22-C08EF668BF15}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrendyWay.Order.Persistence", "Services\Order\Infrastructure\TrendyWay.Order.Persistence\TrendyWay.Order.Persistence.csproj", "{C079D47D-EAA8-4AC5-84F8-79FF7A90E628}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TrendyWay.Order.Persistence", "Services\Order\Infrastructure\TrendyWay.Order.Persistence\TrendyWay.Order.Persistence.csproj", "{C079D47D-EAA8-4AC5-84F8-79FF7A90E628}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrendyWay.Order.WebaPI", "Services\Order\Presentation\TrendyWay.Order.WebaPI\TrendyWay.Order.WebaPI.csproj", "{E2A87113-F2CF-4345-B181-36388EF7CA5D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TrendyWay.Order.WebaPI", "Services\Order\Presentation\TrendyWay.Order.WebaPI\TrendyWay.Order.WebaPI.csproj", "{E2A87113-F2CF-4345-B181-36388EF7CA5D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IdentityServer", "IdentityServer", "{E673284E-146E-423E-8272-E6B2681AF2DA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TrendyWay.IdentityServer", "IdentityServer\TrendyWay.IdentityServer\TrendyWay.IdentityServer.csproj", "{0D322BE9-4220-4494-B025-270D23D17AB0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -59,6 +63,10 @@ Global
 		{E2A87113-F2CF-4345-B181-36388EF7CA5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E2A87113-F2CF-4345-B181-36388EF7CA5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E2A87113-F2CF-4345-B181-36388EF7CA5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D322BE9-4220-4494-B025-270D23D17AB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D322BE9-4220-4494-B025-270D23D17AB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D322BE9-4220-4494-B025-270D23D17AB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D322BE9-4220-4494-B025-270D23D17AB0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -76,6 +84,7 @@ Global
 		{94739E77-DBBA-4DC7-AB22-C08EF668BF15} = {1EFA1A58-5766-4D13-BFB0-21F38B6331DC}
 		{C079D47D-EAA8-4AC5-84F8-79FF7A90E628} = {94739E77-DBBA-4DC7-AB22-C08EF668BF15}
 		{E2A87113-F2CF-4345-B181-36388EF7CA5D} = {F9350DD5-04E2-460F-B8C5-39B8E12B5A01}
+		{0D322BE9-4220-4494-B025-270D23D17AB0} = {E673284E-146E-423E-8272-E6B2681AF2DA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F3609621-3FD8-4E32-ACE8-580FCA24F01F}

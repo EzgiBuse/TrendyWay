@@ -12,7 +12,7 @@ namespace TrendyWay.Order.Persistence.Context
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Server = DESKTOP - D3HSB70\\SQLEXPRESS; Database = TrendyWay_OrderDb; Trusted_Connection = True; TrustServerCertificate = True");
+            optionsBuilder.UseSqlServer("Server=localhost,1440;initial Catalog=TrendyWay_OrderDb;TrustServerCertificate=True;User=sa;Password=123456aA*");
         }
 
         public DbSet<Address> Addresses { get; set; }
