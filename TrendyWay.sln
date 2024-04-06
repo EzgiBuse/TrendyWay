@@ -39,6 +39,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Requirements", "Requirement
 		PortainerCmd.txt = PortainerCmd.txt
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Basket", "Basket", "{63AEBEDC-E407-47A3-BA14-25CC4A6D7EA9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrendyWay.Basket", "Services\Basket\TrendyWay.Basket\TrendyWay.Basket.csproj", "{4AD75DD2-7C4F-41D8-9C59-FBF1F5F6DD31}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -73,6 +77,10 @@ Global
 		{0D322BE9-4220-4494-B025-270D23D17AB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0D322BE9-4220-4494-B025-270D23D17AB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0D322BE9-4220-4494-B025-270D23D17AB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4AD75DD2-7C4F-41D8-9C59-FBF1F5F6DD31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AD75DD2-7C4F-41D8-9C59-FBF1F5F6DD31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AD75DD2-7C4F-41D8-9C59-FBF1F5F6DD31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AD75DD2-7C4F-41D8-9C59-FBF1F5F6DD31}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -91,6 +99,8 @@ Global
 		{C079D47D-EAA8-4AC5-84F8-79FF7A90E628} = {94739E77-DBBA-4DC7-AB22-C08EF668BF15}
 		{E2A87113-F2CF-4345-B181-36388EF7CA5D} = {F9350DD5-04E2-460F-B8C5-39B8E12B5A01}
 		{0D322BE9-4220-4494-B025-270D23D17AB0} = {E673284E-146E-423E-8272-E6B2681AF2DA}
+		{63AEBEDC-E407-47A3-BA14-25CC4A6D7EA9} = {6FED3B18-3184-4641-83D3-D46085AE6F3C}
+		{4AD75DD2-7C4F-41D8-9C59-FBF1F5F6DD31} = {63AEBEDC-E407-47A3-BA14-25CC4A6D7EA9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F3609621-3FD8-4E32-ACE8-580FCA24F01F}

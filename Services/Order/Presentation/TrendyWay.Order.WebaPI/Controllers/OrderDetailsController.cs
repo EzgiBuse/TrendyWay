@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using TrendyWay.Order.Application.Features.CQRS.Commands.OrderDetailCommands;
 using TrendyWay.Order.Application.Features.CQRS.Handlers.OrderDetailHandlers;
@@ -6,6 +7,7 @@ using TrendyWay.Order.Application.Features.CQRS.Queries.OrderDetailQueries;
 
 namespace TrendyWay.Order.WebaPI.Controllers
 {
+    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class OrderDetailsController : ControllerBase

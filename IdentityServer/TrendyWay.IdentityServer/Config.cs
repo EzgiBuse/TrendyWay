@@ -24,6 +24,10 @@ namespace TrendyWay.IdentityServer
            {
                Scopes={"OrderFullPermission"}
            },
+           new ApiResource("ResourceBasket")
+           {
+               Scopes={"BasketFullPermission"}
+           },
            new ApiResource(IdentityServerConstants.LocalApi.ScopeName)
           
         };
@@ -44,6 +48,7 @@ namespace TrendyWay.IdentityServer
             new ApiScope("CatalogReadPermission","Authority for Catalog read operations"),
             new ApiScope("DiscountFullPermission","Full authority for Discount operations"),
             new ApiScope("OrderFullPermission","Full authority for Order operations"),
+            new ApiScope("BasketFullPermission","Full authority for Basket operations"),
             new ApiScope(IdentityServerConstants.LocalApi.ScopeName)
 
         };
@@ -77,7 +82,7 @@ namespace TrendyWay.IdentityServer
                 ClientName="TrendyWayAdminUser",
                 AllowedGrantTypes=GrantTypes.ClientCredentials,
                 ClientSecrets={new Secret("trendywaysecret".Sha256()) },
-                AllowedScopes={ "CatalogReadPermission", "CatalogFullPermission", "DiscountFullPermission", "OrderFullPermission" ,
+                AllowedScopes={ "CatalogReadPermission", "CatalogFullPermission", "DiscountFullPermission", "OrderFullPermission","BasketFullPermission" ,
                 IdentityServerConstants.LocalApi.ScopeName,
                 IdentityServerConstants.StandardScopes.Email,
                 IdentityServerConstants.StandardScopes.OpenId,

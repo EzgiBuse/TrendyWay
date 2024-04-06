@@ -1,0 +1,6 @@
+@TrendyWay.Basket_HostAddress = http://localhost:5075
+
+GET {{TrendyWay.Basket_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

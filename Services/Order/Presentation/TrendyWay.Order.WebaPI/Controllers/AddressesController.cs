@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using TrendyWay.Order.Application.Features.CQRS.Commands.AddressCommands;
 using TrendyWay.Order.Application.Features.CQRS.Handlers.AddressHandlers;
@@ -6,6 +7,7 @@ using TrendyWay.Order.Application.Features.CQRS.Queries.AddressQueries;
 
 namespace TrendyWay.Order.WebaPI.Controllers
 {
+    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class AddressesController : ControllerBase
