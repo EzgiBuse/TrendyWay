@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using TrendyWay.Order.Application.Features.CQRS.Handlers.AddressHandlers;
 using TrendyWay.Order.Application.Features.CQRS.Handlers.OrderDetailHandlers;
 using TrendyWay.Order.Application.Interfaces;
@@ -6,6 +7,13 @@ using TrendyWay.Order.Persistence.Context;
 using TrendyWay.Order.Persistence.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(opt =>
+{
+    opt.Authority = builder.Configuration["IdentityServerUrl"];
+    opt.RequireHttpsMetadata = false;
+    opt.Audience = "ResourceOrder";
+});
 
 builder.Services.AddDbContext<OrderContext>();
 

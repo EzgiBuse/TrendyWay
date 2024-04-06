@@ -36,6 +36,8 @@ namespace TrendyWay.IdentityServer
 
         };
 
+
+
         public static IEnumerable<ApiScope> ApiScopes => new ApiScope[]
         {
             new ApiScope("CatalogFullPermission","Full authority for Catalog operations"),
