@@ -41,7 +41,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Requirements", "Requirement
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Basket", "Basket", "{63AEBEDC-E407-47A3-BA14-25CC4A6D7EA9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrendyWay.Basket", "Services\Basket\TrendyWay.Basket\TrendyWay.Basket.csproj", "{4AD75DD2-7C4F-41D8-9C59-FBF1F5F6DD31}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TrendyWay.Basket", "Services\Basket\TrendyWay.Basket\TrendyWay.Basket.csproj", "{4AD75DD2-7C4F-41D8-9C59-FBF1F5F6DD31}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ApiGateway", "ApiGateway", "{E83DF745-D84A-4160-BD52-5CAA4D795B56}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
